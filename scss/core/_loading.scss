@@ -1,9 +1,0 @@
-.loading {
-    background: $green-cl;
-    @include position(fixed, 0, 0, $z: 2000);
-    @include size;
-    @include flex;
-    img {
-        @include size(240px, 110px);
-    }
-}
