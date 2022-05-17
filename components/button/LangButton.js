@@ -9,12 +9,12 @@ const LangButton = (props) => {
       onPress={onPress}
       style={[
         styles.buttonLang,
-        { backgroundColor: isSelected == true ? `${colors.pink}` : null },
+        { backgroundColor: isSelected == true ? colors.pink : null },
       ]}
     >
       <Text
         style={{
-          color: isSelected == true ? `${colors.white}` : null,
+          color: isSelected == true ? colors.white : null,
           fontSize: 12,
           textTransform: "uppercase",
         }}

@@ -11,12 +11,12 @@ const Login = () => {
     { title: "EN", isSelected: false },
   ]);
   const loginButtonGroup = [
-    { style: { backgroundColor: `${colors.black}` }, icon: images.appleLogo },
+    { style: { backgroundColor: colors.black }, icon: images.appleLogo },
     {
       style: { borderWidth: 1, borderColor: "rgba(15, 36, 71, 0.15)" },
       icon: images.gmailLogo,
     },
-    { style: { backgroundColor: `${colors.blue}` }, icon: images.facebookLogo },
+    { style: { backgroundColor: colors.blue }, icon: images.facebookLogo },
   ];
   return (
     <View style={styles.container}>
