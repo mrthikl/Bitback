@@ -1,7 +1,7 @@
 import React from "react";
 import { StatusBar } from "expo-status-bar";
-import Login from "./screens/login/Login";
+import { Login, Splash } from "./screens";
 
 export default function App() {
-  return <Login></Login>;
+  return <Splash />;
 }
