@@ -1,0 +1,27 @@
+.textbox {
+  .heading {
+    &.--h1 {
+      letter-spacing: 0.1rem;
+      @include text(inherit, var(--h1-fs), var(--h1-lh));
+    }
+    &.--h2 {
+      letter-spacing: 0.1rem;
+      @include text(inherit, var(--h2-fs), var(--h2-lh));
+    }
+    &.--h3 {
+      letter-spacing: 0.1rem;
+      @include text(inherit, var(--h3-fs), var(--h3-lh));
+    }
+  }
+  .text {
+    &.--t15 {
+      @include text(inherit, var(--t15-fs), var(--t15-lh));
+    }
+    &.--t14 {
+      @include text(inherit, var(--t14-fs), var(--t14-lh));
+    }
+    &.--t12 {
+      @include text(inherit, var(--t12-fs), var(--t12-lh));
+    }
+  }
+}

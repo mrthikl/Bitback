@@ -1,0 +1,32 @@
+.container {
+  padding: 60px 20px 80px 20px;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-20px, -20px);
+}
+
+.homeTop {
+  background-color: #f1f5ff;
+  border-radius: 4px;
+  flex-direction: row;
+}
+
+.homeBottom {
+  width: 100%;
+  align-items: center;
+}
+
+.buttonGroup {
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}

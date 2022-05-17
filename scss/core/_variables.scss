@@ -1,0 +1,80 @@
+//======================================================BOXED LAYOUT=======================================================
+$container-max-width: 100%;
+$container-width: 1010px;
+
+/*GRID - media queries breakpoints*/
+
+$xxs-min: 576px;
+$xs-min: 768px;
+$sm-min: 992px;
+$md-min: 1200px;
+$lg-min: 1600px;
+$xxs-max: ($xxs-min - 1); // Small Mobile
+$xs-max: ($xs-min - 1); // Mobile
+$sm-max: ($sm-min - 1); // Tablet
+$md-max: ($md-min - 1); // Desktop
+$lg-max: ($lg-min - 1); // Large Desktop
+// colors
+$white-cl: #ffffff;
+$white-2-cl: #e2e1d0;
+$black-cl: #000000;
+$dark-cl: #333333;
+$dark-2-cl: #515151;
+$dark-3-cl: #464547;
+$grey-cl: #eeeeee;
+$grey-2-cl: #B6B6B8;
+$grey-3-cl: #5e6263;
+$green-cl: #23462b;
+$green-2-cl:#68865C;
+$yellow-cl :#E8AD80;
+$light-cl: #e5e2dc;
+$pink-cl: #f72626;
+$t: 0.5s;
+$cubic-1: cubic-bezier(0.645, 0.045, 0.355, 1);
+$cubic-2: cubic-bezier(0.47, 0, 0.745, 0.715);
+:root {
+    // font-size & line-height heading
+    --h1-fs: 4.8rem;
+    --h1-lh: 5.8rem;
+    --h2-fs: 2.1rem;
+    --h2-lh: 3.1rem;
+    --h3-fs: 2.9rem;
+    --h3-lh: 4.5rem;
+    --body-fs: 1.9rem;
+    --body-lh: 1.6;
+    --t15-fs: 1.5rem;
+    --t15-lh: 2.5rem;
+    --t12-fs: 1.2rem;
+    --t12-lh: 2.2rem;
+    --t14-fs: 1.4rem;
+    --t14-lh: 2.4rem;
+    // Genaral Variable
+    --gap: 30px;
+    --height-header: 70px;
+    --height-footer: 90px;
+    --pdss: 30px;
+    --font: "Roboto";
+    --height-mobile-cta: 70px;
+    @media (max-width: $md-max) {
+        --h1-fs: 3.2rem;
+        --h1-lh: 4.2rem;
+        --h3-fs: 2.6rem;
+        --h3-lh: 3.6rem;
+        --body-fs: 1.8rem;
+        --body-lh: 2.4rem;
+    }
+    @media (max-width: $sm-max) {
+        --h1-fs: 2.4rem;
+        --h1-lh: 3.4rem;
+        --h2-fs: 1.6rem;
+        --h2-lh: 2.6rem;
+    }
+    @media (max-width: $xs-max) {
+        --pdss: 20px;
+        --h2-fs: 1.2rem;
+        --h2-lh: 2.2rem;
+    }
+    @media (max-width: $xxs-max) {
+        --gap: 15px;
+    }
+}
